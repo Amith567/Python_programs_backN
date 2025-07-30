@@ -1,8 +1,10 @@
 def validate_email(email):
     return True
+    #in progress
 
 def validate_password(password):
     return True
+    #in progress
 
 email=input("Enter email : ")
 password=input("Enter password : ")
