@@ -1,4 +1,5 @@
 def validate_email(email):
+<<<<<<< HEAD
     if '@'not in email:
         return False,"it doesn't contain '@' "
     name,domain=email.split('@',1)
@@ -14,6 +15,14 @@ def validate_password(password):
         return False,"your password doesn't contain a digit "
     if not any(let.isalpha() for let in password):
         return False,"your password doesn't contain a alphabet"
+=======
+    return True
+    #in progress
+
+def validate_password(password):
+    return True
+    #in progress
+>>>>>>> b3395495b263fed67b231602a13d6bfe088e8bd5
 
     return True,"password is valid"
 
